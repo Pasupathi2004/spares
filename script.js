@@ -122,8 +122,3 @@ function goBack() {
 function toggleMenu() {
   // if you have menu toggling logic, place it here
 }
-// Start the server
-const port = process.env.PORT || 3000;
-app.listen(port, () =>
-  console.log(`🚀 Server running on http://localhost:${port}`)
-);
